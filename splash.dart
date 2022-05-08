@@ -2,8 +2,7 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:robocore/main.dart';
-//import 'package:clay_containers/clay_containers.dart';
+import 'package:robocore22/MyHome%20Page.dart';
 
 void main(){
   runApp( const MaterialApp(
@@ -29,7 +28,7 @@ class _SplashState extends State<Splash> {
             ()=>Navigator.pushReplacement(context,
             MaterialPageRoute(builder:
                 (context) =>
-                const MyHomePage()
+            const Homepage()
             )
         )
     );
